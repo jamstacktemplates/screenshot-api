@@ -1,5 +1,5 @@
 const { builder } = require("@netlify/functions");
-const chromium = require("chrome-aws-lambda");
+const chromium = require("@sparticuz/chromium");
 
 function isFullUrl(url) {
   try {
