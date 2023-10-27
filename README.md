@@ -9,7 +9,7 @@ A runtime service to generate live website screenshots.
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/jamstacktemplates/screenshot-api
 "><img src="https://www.netlify.com/img/deploy/button.svg" border="0" alt="Deploy to Netlify"></a>
 
-* You _must_ set an environment variable in the Netlify App UI `AWS_LAMBDA_JS_RUNTIME` with the value `nodejs12.x`.
+* Note: You need to set an environment variable in the Netlify App UI `AWS_LAMBDA_JS_RUNTIME` with the value `nodejs16.x`.
 
 ## Usage
 
