@@ -1,0 +1,25 @@
+{
+  "name": "screenshot-api",
+  "version": "1.0.0",
+  "description": "A runtime service to generate live website screenshots.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamstacktemplates/screenshot-api.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jamstack Templates",
+    "email": "hello@jamstacktemplates.net",
+    "url": "https://jamstacktemplates.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamstacktemplates/screenshot-api/issues"
+  },
+  "homepage": "https://github.com/jamstacktemplates/screenshot-api#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.0.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.1.0"
+  }
+}
